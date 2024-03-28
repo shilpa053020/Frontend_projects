@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    background-color: black;
+    width:30%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background-color: red;
+    align-items: center;
+    margin-right: 55px;
+    width: 38%;
+    height: 200px; 
+
+}
+.right{
+    background-color: red;
+    align-items: center;
+    width: 38%;
+    height: 200px;
+    
+
+}
+.list{
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    max-height: 30px;
+    padding: 5px;
+    list-style-type:none;
+    
+    
+}
