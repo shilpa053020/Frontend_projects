@@ -1,0 +1,42 @@
+/* Reset default margin and padding for the container */
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the list items horizontally */
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping if items exceed container width */
+}
+
+/* Style for list items */
+li {
+    padding: 20px;
+    margin: 10px; /* Adjusted margin for better spacing */
+    border: 1px solid black;
+    background-color: palevioletred;
+    font-size: 26px;
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Style for the drop box */
+.box {
+    background-color: gray;
+    width: 630px;
+    min-height: 100px; /* Set a minimum height */
+    padding: 20px; /* Adjusted padding */
+    margin: 20px auto; /* Center box horizontally with auto margins */
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap within the box */
+    align-items: center; /* Align items to the center vertically */
+    border: 2px dashed #000; /* Optional border style for better visibility */
+    list-style-type: none;
+}
+
+/* Center text for the header */
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Optional: space below the header */
+}

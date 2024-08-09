@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 400px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid blanchedalmond;
+}
+.box p{
+    color: red;
+}
+h1{
+    text-align: center;
+} 
+input{
+    width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+button{
+    width: 30%;
+    margin-left: 140px;
+    margin-bottom: 20px;
+}
